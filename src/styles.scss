@@ -730,8 +730,8 @@ main {
 }
 
 .long-modal {
-    height: 795px;
-    top: calc(50% - 380px);
+    height: 770px;
+    top: calc(50% - 385px);
 
     @include mobile {
         height: 580px;
