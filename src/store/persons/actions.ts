@@ -12,8 +12,7 @@ export const getInitalData = () => {
     } catch (err: any) {
       dispatch(uiActions.setErrorModalMessage(err?.message || 'Network error occured.'))
     } finally {
-      setTimeout(() => dispatch(uiActions.setIsLoading(false)), 1200)
-      
+      dispatch(uiActions.setIsLoading(false))
     }
   }
 }
